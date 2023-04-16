@@ -10,7 +10,7 @@ export default function Header() {
     <div className="flex justify-between mx-2 max-w-6xl sm:mx-auto items-center">
       {/* The right side of the Header */}
 
-      <div className="flex">
+      <div className="flex text-2xl">
         <MenuItem title="HOME" address="/" Icon={AiFillHome} />
         <MenuItem title="ABOUT" address="/about" Icon={BsInfoCircleFill} />
       </div>
