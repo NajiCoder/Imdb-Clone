@@ -25,7 +25,7 @@ export default function Card({ result }) {
             {result.title || result.name}
           </h2>
           <p className="flex items-center">
-            {result.release_date || result.first_air_date}{" "}
+            {result.release_date || result.first_air_date}
             <FiThumbsUp className="h-5 ml-3 mr-1" /> {result.vote_count}
           </p>
         </div>
